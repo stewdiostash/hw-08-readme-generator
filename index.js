@@ -7,6 +7,11 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 // array of questions for user
 const questions = [
     {
+        name: "author",
+        message: "What's your name?",
+        type: "input"
+    },
+    {
         name: "title",
         message: "What's the name of your project'?",
         type: "input"
@@ -17,8 +22,8 @@ const questions = [
         type: "input"
     },
     {
-        name: "table of contents",
-        message: "List each section in your readme in a comma-separated list.",
+        name: "installation",
+        message: "Describe any steps required for installation.",
         type: "input"
     },
     {
@@ -30,21 +35,21 @@ const questions = [
         name: "license",
         message: "How will your work be licensed?",
         type: "list",
-        choices: ["MIT","CIA","None"]
+        choices: ["MIT","LGPL-3.0","MPL-2.0","AGPL-3.0","The Unlicense","Apache License 2.0","GPL-3.0", "None"]
     },
     {
         name: "contributing",
-        message: "Who contributed to this project?",
+        message: "Describe the process for submissions or pull requests.",
         type: "input"
     },
     {
         name: "tests",
-        message: "Who contributed to this project?",
+        message: "Explain how to run the automated tests for this system.",
         type: "input"
     },    
     {
         name: "questions",
-        message: "Any outstanding questions?",
+        message: "Any frequently asked questions about this system?",
         type: "input"
     },
 ];
