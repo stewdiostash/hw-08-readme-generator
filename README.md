@@ -1,14 +1,20 @@
 # Readme Generator
 ## Description
         
-Generates readme md files from command line
+The Readme Generator allows users to quickly generate a thorough Readme from the command line by answer a series of questions (enquirer). Responses are first injected into the generateMarkdown.js utility—then written to file via fs.writeFileSync.
 
 ![MIT-license](https://img.shields.io/badge/license-MIT-blue)
+
+
+## Screenshot
+
+![CLI](images/cli.png)
 
 
 ## Table of Contents
 
 * [Description](#description)
+* [Screenshot](#screenshot)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
