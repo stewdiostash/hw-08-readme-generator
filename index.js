@@ -71,6 +71,9 @@ function init() {
         writeToFile('readme.md', generateMarkdown({...answers}));
         console.log(answers);
     })
+    .catch((err) => {
+        console.log(err)
+    });
 
 }
 
