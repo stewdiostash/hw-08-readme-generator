@@ -1,7 +1,8 @@
-# Readme generator
+# Readme Generator
 ## Description
         
-Automates readme via inquirer
+Generates readme md files from command line
+
 ![MIT-license](https://img.shields.io/badge/license-MIT-blue)
 
 
@@ -18,7 +19,7 @@ Automates readme via inquirer
 
 ## Installation
 
-None to speak of
+Requires fs and enquirer packages
 
 
 ## Usage
@@ -34,15 +35,16 @@ Copyright (c) 2020 Andrew Stewart
 
 ## Contributing
 
-Just call me
+Email me
 
 
 ## Tests
 
-Bang on your laptop
+Run "node index.js"
 
 
 ## Questions
+https://github.com/stewdiostash
 
-Don't ask
+1andrewstewart@gmail.com
 

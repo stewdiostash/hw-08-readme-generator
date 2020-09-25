@@ -46,12 +46,17 @@ const questions = [
         name: "tests",
         message: "Explain how to run the automated tests for this system.",
         type: "input"
-    },    
+    },   
     {
-        name: "questions",
-        message: "Any frequently asked questions about this system?",
+        name: "github",
+        message: "What's your github username?",
         type: "input"
-    },
+    }, 
+    {
+        name: "email",
+        message: "What email address should questions be directed to?",
+        type: "input"
+    }
 ];
 
 // function to write README file
